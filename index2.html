@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diana Sanchez - Homework 1.1</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="Diana Sanchez" content="Diana Sanchez Homework" />
+	<meta name="geo.country" content="US" />
+	<meta name="dc.language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<link rel="stylesheet" href="file:///Macintosh HD/Users/student/Desktop/JavaScript.09.17.12/FirstCode/styles.css" type="text/css" media="screen" charset="utf-8" />
+	
+	<style type="text/css" media="screen">		
+	</style>
+</head>
+
+
+<body>
+
+	<div class="wrap" >
+		
+			<h1>Diana Sanchez - Homework 1</h1>
+			<br>
+
+
+			<h2>Part 2 - Three different stories - Only one is displayed</h2>
+				<br>
+		
+		<p id="display_name"></p>
+		
+	</div>
+	
+	
+	<script type="text/javascript" charset="utf-8">
+			
+			var choice = prompt("Choose a number between 1 and 3");
+			var name = prompt("Enter a female's name");
+			var adjective = prompt("Enter an adjective");		
+			var food = prompt("Enter your favorite food");		
+
+			
+			var element = document.getElementById('display_name');
+
+			if(choice == "1"){
+			element.innerHTML = "Fabiola and " + name + " went to the park yesterday. It was a " + adjective + " day. They ate " + food + " at the lake.";			
+			}else{
+				
+			if(choice == "2"){
+			element.innerHTML = "My name is " + name + ". I am very " + adjective + ". My favorite food is " + food;				
+			}else{
+			
+			element.innerHTML = name + " woke up early this morning. It was a " + adjective + " day outside. She had " + food + " for breakfast. ";				
+			}
+
+			}
+
+
+		</script> 
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
